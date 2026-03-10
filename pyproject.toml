@@ -1,0 +1,23 @@
+[project]
+name = "heo-precision-assist"
+version = "0.1.0"
+description = "Motor stability, accessibility and rehabilitation assistant for HEO ecosystem"
+authors = [
+  { name = "Nelson Sandoval Arias" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "matplotlib",
+    "pandas",
+    "scipy",
+    "rich",
+    "typer",
+]

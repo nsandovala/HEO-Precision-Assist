@@ -1,2 +1,7 @@
 numpy
 pynput
+matplotlib
+pandas
+scipy
+rich
+typer
