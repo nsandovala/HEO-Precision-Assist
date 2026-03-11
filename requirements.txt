@@ -5,3 +5,5 @@ pandas
 scipy
 rich
 typer
+pytest
+pytest-cov
